@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dertpltntd4d6"]
+
+[ext_resource type="Script" uid="uid://cbjjfvk6xe7pq" path="res://scripts/polygon_2d.gd" id="1_014kd"]
+
+[node name="Level 1" type="Node2D" unique_id=607141388]
+position = Vector2(0.776062, 0.990448)
+
+[node name="Panel" type="Panel" parent="." unique_id=189898463]
+offset_left = -518.77606
+offset_top = 159.00955
+offset_right = -478.77606
+offset_bottom = 199.00955
+scale = Vector2(73.88762, 8.603482)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=779523549]
+
+[node name="Polygon2D" type="Polygon2D" parent="CanvasLayer" unique_id=464052090]
+position = Vector2(43, 609)
+polygon = PackedVector2Array(48, 0, 0, 0, 24, -47.999996)
+uv = PackedVector2Array(52, -1.199997, 0, 0, 24, 47.999992)
+script = ExtResource("1_014kd")
+
+[node name="CenterContainer" type="CenterContainer" parent="CanvasLayer" unique_id=1890956752]
+offset_left = 485.0
+offset_top = -21.0
+offset_right = 525.0
+offset_bottom = 19.0
